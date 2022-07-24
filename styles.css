@@ -8,21 +8,33 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 	padding: 0;
 	margin: 0;
 }
-/* HEX COLORS:
+/* 
+
+HEX COLORS: (old)
 Charcoal #444 (Footer)
-Grey #aaa 
-Light grey #ddd (bg)
+Grey #aaa (headers) 
+Light grey #ddd (bg) (old) 
 
 Dark Teal #067
 Light Teal #2aa
-
 Light to dark Teal #3aa #299 #188
-
 Teal #078 #189 #19a #2aa
 
 
-FONTS:
+HEX COLORS: (new)
+white #fff
+gray (dark-light) #444 #888 #aaa
+teal (dark-light) #188 #299 #3aa
+plum (dark-light) #545 #646 #757
+cactus (dark-light) #786 #896 #ab8
+carrot #fc9
 
+
+FONTS:
+Roboto
+
+
+FONTS: (old)
 JULIUS SANS ONE
 Josefin Sans
 PT Sans
@@ -60,8 +72,9 @@ Raleway
 
 body {
 	/*background: linear-gradient(to right, #ccd 0%, #dde 100%);*/
-	background-color: #ddd;
+	background-color: #fff;
 }
+
 
 
 /* *--**--**--**--**--* RESPONSIVE TOPNAV *--**--**--**--**--**--**--* */
@@ -72,20 +85,20 @@ ul.topnav {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	background-color: #067;
-	font-family: Julius Sans One;
+	background-color: #545;
+	font-family: Roboto;
 	padding-left: 5%;
 }
 /* Float the list items side by side */
 ul.topnav li {
-	font-family: Julius Sans One;
+	font-family: Roboto;
 	float: left;
 }
 /* Style the links inside the list items */
 ul.topnav li a {
-	font-family: Julius Sans One;
+	font-family: Roboto;
 	display: inline-block;
-	color: #f2f2f2;
+	color: #fff;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -94,16 +107,16 @@ ul.topnav li a {
 	font-size: 17px;
 }
 ul.topnav li.active a {
-	font-family: Julius Sans One;
-	background-color: #3aa;
+	font-family: Roboto;
+	background-color: #757;
 }
 ul.topnav li a:hover {
-	font-family: Julius Sans One;
-	background-color: #188;
+	font-family: Roboto;
+	background-color: #646;
 }
 ul.topnav li.active a:hover {
-	font-family: Julius Sans One;
-	background-color: #299;
+	font-family: Roboto;
+	background-color: #646;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -187,28 +200,28 @@ header {
 	padding-top: 100px;
 }
 header h1 {
-	font-size: 60px;
+	font-size: 34px;
 	text-align: center;
-	font-family: Julius Sans One;
+	font-family: Roboto;
 	color: #444;
-	text-shadow: 4px 4px 6px #999;
+	/* text-shadow: 4px 4px 6px #999; */
 }
 header h2, h2 a {
-	font-size: 30px;
+	font-size: 32px;
 	text-align: center;
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	margin-bottom: 15px;
-	color: #067;
+	color: #444;
 	text-decoration: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 h3, h3 a {
 	font-size: 30px;
 	text-align: center;
-	font-family: Raleway;
+	font-family: Roboto;
 	color: #444;
 	text-decoration: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 /* PHONE only features */
 @media only screen and (max-width: 700px) {
@@ -251,7 +264,7 @@ h3, h3 a {
 	margin: 1px;
 	font-size: 35px;
 	text-align: right;
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	color: #444;
 	margin-right: 5px;
 	/*float: right;*/
@@ -298,19 +311,19 @@ h3, h3 a {
 
 
 #content h1 {
-	font-size: 50px;
-	font-family: Julius Sans One;
-	color: #067;
+	font-size: 34px;
+	font-family: Roboto;
+	color: #444;
 	padding-bottom: 10px;
 	margin: 0;
 	margin-bottom: 15px;
-	border-bottom: solid 10px #aaa;
+	/* border-bottom: solid 10px #aaa; */ 
 	text-align: center;
 }
 #content h2 {
 	font-size: 35px;
-	font-family: Josefin Sans;
-	color: #555;
+	font-family: Roboto;
+	color: #444;
 	padding-bottom: 10px;
 	margin-top: 30px;
 	margin-bottom: 15px;
@@ -321,18 +334,18 @@ h3, h3 a {
 
 #content h3 {
 	font-size: 25px;
-	font-family: Josefin Sans;
-	color: #55b;
+	font-family: Roboto;
+	color: #444;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: dotted 2px #123;
+	/* border-bottom: dotted 2px #123; */
 }
 #content p {
-	font-family: PT Sans;
+	font-family: Roboto;
 	font-size: 20px;
 }
 #content a {
-	font-family: Catamaran;
+	font-family: Roboto;
 	text-decoration: none;
 	color: #999;
 }
@@ -370,7 +383,7 @@ h3, h3 a {
 
 /* @#@#@#@#@#@#@#@#@#@#@# - Game Links - GAMES page - @#@#@#@#@#@#@#@#@#@# */
 .gamelinks {
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	font-size: 1em;
 }
 .gamelinks ul {
@@ -424,7 +437,7 @@ h3, h3 a {
 #gamebox h2 {
 	text-transform: uppercase;
 	font-size: 35px;
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	color: #067;
 	font-weight: bold;
 	padding: 20px 0 10px 30px;
@@ -448,7 +461,7 @@ h3, h3 a {
 p a.download {
 	background-color: white;
 	color: #080;
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	font-size: 1em;
 	text-decoration: none;
 	padding: 2px 20px;
@@ -458,7 +471,7 @@ p a.download {
 	font-weight: bold;
 }
 p a.download:hover {
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	color: #0ff;
 }
 
@@ -792,7 +805,7 @@ ul.follow {
 	margin-top: 15px;
 	max-width: 150px;
 	color: #111;
-	font-family: Josefin Sans;
+	font-family: Roboto;
 	font-weight: bold;
 	font-size: 1.3em;
 	background-color: white;
@@ -811,7 +824,7 @@ ul.follow {
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #444;
+	background-color: #786;
 	text-align: center;
 	color: white;
 }
@@ -820,7 +833,7 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover {
-	color: #aef;
+	color: #757;
 	color: white;
 	text-decoration: underline;
 }
@@ -870,5 +883,8 @@ html, body {
   height: 90px; 
 }
 .site-footer {
-  background: orange;
+  background: #fc9;
 }
+
+
+
