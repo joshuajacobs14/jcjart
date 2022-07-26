@@ -369,150 +369,6 @@ h3, h3 a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* @#@#@#@#@#@#@#@#@#@#@# - Game Links - GAMES page - @#@#@#@#@#@#@#@#@#@# */
-.gamelinks {
-	font-family: Roboto;
-	font-size: 1em;
-}
-.gamelinks ul {
-	text-align: center;
-	list-style-type: none;
-}
-.gamelinks ul li {
-	font-size: 1.2em;
-	text-transform: uppercase;
-	font-weight: bold;
-	/*float: left;*/
-	color: white;
-	margin: 3px 3px 3px 3px;
-	padding: 3px 8px 3px 8px;
-	border: 3px solid #333;
-	background-color: #ddd;
-	max-width: 300px;
-}
-.gamelinks ul li a {
-	text-decoration: none;
-	border: none;
-	text-shadow: none;
-	color: #067;
-}
-.gamelinks ul li a:hover {
-	border: none;
-	color: #819;
-	text-shadow: 1px 1px 1px #555;
-}
-
-
-
-
-/* GAMES page */
-#container.gamepage {
-	background-color: #fff;
-}
-#gamebox {
-	background-color: #ddd;
-	width: 95%;
-	height: 100%;
-	padding: 0 10px 45px 10px;
-	margin: 40px 0;
-	/*border: #333 solid 10px;*/
-}
-#gamebox h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	/*border-bottom: double 12px #999;*/
-}
-#gamebox h2 {
-	text-transform: uppercase;
-	font-size: 35px;
-	font-family: Roboto;
-	color: #067;
-	font-weight: bold;
-	padding: 20px 0 10px 30px;
-	margin: 0 0 15px 10px;
-	/*border-bottom: dashed 5px #067;*/
-}
-#gamebox p {
-	text-align: center;
-	font-size: 1em;
-	color: black;
-}
-
-.gameInfo {
-	margin: 20px 0 0 10px;
-	padding: 10px;
-	float: left;
-	max-width: 400px;
-	min-width: 200px;
-}
-
-p a.download {
-	background-color: white;
-	color: #080;
-	font-family: Roboto;
-	font-size: 1em;
-	text-decoration: none;
-	padding: 2px 20px;
-	padding-bottom: 5px;
-	/*border: 3px solid #444;*/
-	line-height: 3em;
-	font-weight: bold;
-}
-p a.download:hover {
-	font-family: Roboto;
-	color: #0ff;
-}
-
-/* Hide DOWNLOAD button */
-@media only screen and (max-width: 600px) {
-	.download {
-		display: none;
-	}
-}
-
-/* -- -- GAME Gallery Images -- -- */
-.ggallery {
-	margin: 0 5px 10px 5px;
-	padding: 5px;
-	/*background-color: #444;*/
-	background-color: white;
-	float: left;
-	/*border: dotted 5px #666;*/
-	border: solid 1px #666;
-	height: 150px;
-	max-width: 100%;
-}
-.ggallery img {
-	height: 100%;
-	display: block;
-	background-color: #ddd;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 0-0-0-0-0-0-0-0-0-0-0 -- IMAGES -- 0-0-0-0-0-0-0-0-0-0-0--0-0-0-0-0-0-0 */
 
 
@@ -565,9 +421,9 @@ figure.contactimg img {
 /* DESKTOP only features  4 COLUMNS*/
 
 .hgallery {
-	background-color: #ddd;
-	margin: 2% 25%;
-	padding: 2%;
+	background-color: #fff;
+	margin: 2% 22%;
+	padding: 1%;
 	width: 50%;
 	float: left;
 }
@@ -577,12 +433,16 @@ figure.contactimg img {
 	float: left;
 }
 a .hgallery {
-	color: #777;
+	/*color: #777;*/
 }
+
+
 a:hover .hgallery {
-	background-color: #067;
+	background-color: #eee;
 	/*text-decoration: underline;*/
 }
+
+
 
 
 /* TABLET only features */
@@ -634,6 +494,8 @@ a:hover .hgallery {
 a .gallery {
 	background-color: #fff;
 }
+
+
 
 /* TABLET only features */
 @media only screen and (max-width: 1100px) {
@@ -768,7 +630,7 @@ iframe {
 
 
 
-/************************* FORM *******************************/
+/************************* FORM ******************************
 form {
 	margin: 10px;
 	padding: 5px;
@@ -782,7 +644,7 @@ form {
 ul.follow {
 	list-style-type: none;
 	margin-left: 30px;
-}
+}*/
 
 
 
@@ -824,10 +686,12 @@ ul.follow {
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #786;
+	background-color: rgb(157, 145, 162); 
 	text-align: center;
 	color: white;
 }
+/*Colors: 
+cactus #786, carrot #fc9, lavender */
 footer a {
 	color: white;
 	text-decoration: none;
