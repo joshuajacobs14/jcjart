@@ -85,7 +85,7 @@ ul.topnav {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	background-color: #545;
+	background-color: #8a8;
 	font-family: Roboto;
 	padding-left: 5%;
 }
@@ -108,15 +108,15 @@ ul.topnav li a {
 }
 ul.topnav li.active a {
 	font-family: Roboto;
-	background-color: #757;
+	background-color: #574;
 }
 ul.topnav li a:hover {
 	font-family: Roboto;
-	background-color: #646;
+	background-color: #786;
 }
 ul.topnav li.active a:hover {
 	font-family: Roboto;
-	background-color: #646;
+	background-color: #786;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -689,7 +689,7 @@ ul.follow {
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: rgb(157, 145, 162); 
+	background-color: #8a8; 
 	text-align: center;
 	color: white;
 }
@@ -700,7 +700,7 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover {
-	color: #757;
+	color: #8a8;
 	color: white;
 	text-decoration: underline;
 }
