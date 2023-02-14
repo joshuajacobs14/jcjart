@@ -522,10 +522,10 @@ a:hover .money_gallery {
 @media only screen and (max-width: 1100px) {
 	.money_gallery figaption {
 	}
-	a .hgallery {
-		margin: 2% 20%;
-		padding: 2%;
-		width: 60%;
+	a .money_gallery {
+		margin: 2% 30%;
+		padding: 1%;
+		width: 35%;
 	}
 }
 /* PHONE only features */
@@ -533,9 +533,9 @@ a:hover .money_gallery {
 	.money_gallery figaption {
 	}
 	a .money_gallery {
-		margin: 2% 10%;
-		padding: 2%;
-		width: 80%;
+		margin: 2% 20%;
+		padding: 1%;
+		width: 55%;
 	}
 }
 /* TINY PHONE only features */
@@ -543,9 +543,9 @@ a:hover .money_gallery {
 	.money_gallery figaption {
 	}
 	a .money_gallery {
-		margin: 2% 5%;
-		padding: 2%;
-		width: 90%;
+		margin: 2% 15%;
+		padding: 1%;
+		width: 65%;
 	}
 }
 
