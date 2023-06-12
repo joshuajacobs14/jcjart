@@ -10,29 +10,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 }
 /* 
 
-HEX COLORS: (old)
-Charcoal #444 (Footer)
-Grey #aaa (headers) 
-Light grey #ddd (bg) (old) 
-
-Dark Teal #067
-Light Teal #2aa
-Light to dark Teal #3aa #299 #188
-Teal #078 #189 #19a #2aa
-
-
-HEX COLORS: (new)
-white #fff
-gray (dark-light) #444 #888 #aaa
-teal (dark-light) #188 #299 #3aa
-plum (dark-light) #545 #646 #757
-cactus (dark-light) #786 #896 #ab8
-carrot #fc9
+HEX COLORS:
+01 - sprout #95B48F
+02 - clay #DB8162
+03 - teal #34888D
+04 - grape #8E728A
+05 - gold #E0B46E
 
 
 FONTS:
 Roboto
-
 
 FONTS: (old)
 JULIUS SANS ONE
@@ -85,7 +72,7 @@ ul.topnav {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	background-color: #8a8;
+	background-color: #95B48F;
 	font-family: Roboto;
 	padding-left: 5%;
 }
@@ -108,15 +95,15 @@ ul.topnav li a {
 }
 ul.topnav li.active a {
 	font-family: Roboto;
-	background-color: #574;
+	background-color: #DB8162;
 }
 ul.topnav li a:hover {
 	font-family: Roboto;
-	background-color: #786;
+	background-color: #95B48F;
 }
 ul.topnav li.active a:hover {
 	font-family: Roboto;
-	background-color: #786;
+	background-color: #95B48F;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -181,8 +168,8 @@ figure.headerimg {
 figure.headerimg img {
 	margin: 0;
 	width:100%;
-	border-top: 1px solid #067;
-	border-bottom: 1px solid #067;
+	/*border-top: 1px solid #067;
+	border-bottom: 1px solid #067;*/
 }
 /* MOBILE: (TABLET & PHONE) only features
 @media only screen and (max-width: 1200px) {
@@ -248,7 +235,7 @@ h3, h3 a {
 .social {
 	margin: auto;
 	width: 290px;
-	color:rgb(3, 65, 14);
+	color:#95B48F;
 }
 .social	img {
 	width: 40px;
@@ -268,7 +255,7 @@ h3, h3 a {
 	font-size: 34px;
 	text-align: right;
 	font-family: Roboto;
-	color: rgb(3, 65, 14);
+	color: #95B48F;
 	margin-right: 5px;
 	/*float: right;*/
 	/*font-weight: bold;*/
@@ -362,7 +349,7 @@ h3, h3 a {
 	text-decoration: underline;
 }
 #content p a {
-	color: #067;
+	color: #34888D;
 	text-decoration: none;
 }
 #content p a:hover {
@@ -573,7 +560,7 @@ a .money_gallery {
 	height: 250px;
 }
 a .gallery {
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 
@@ -759,7 +746,7 @@ ul.follow {
 	
 }
 #back a:hover {
-	border: 5px #067 solid;
+	border: 5px #34888D solid;
 }
 
 
@@ -767,7 +754,7 @@ ul.follow {
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #8a8; 
+	background-color: #34888D; 
 	text-align: center;
 	color: white;
 }
@@ -778,7 +765,7 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover {
-	color: #8a8;
+	color: #34888d;
 	color: white;
 	text-decoration: underline;
 }
@@ -828,7 +815,7 @@ html, body {
   height: 90px; 
 }
 .site-footer {
-  background: #fc9;
+  background: white;
 }
 
 
