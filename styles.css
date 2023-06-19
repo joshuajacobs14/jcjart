@@ -12,6 +12,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 
 HEX COLORS:
 01 - sprout #95B48F
+01a - dark sprout #70876B
+01b - dark sprout #4B5A48
 02 - clay #DB8162
 03 - teal #34888D
 04 - grape #8E728A
@@ -95,7 +97,7 @@ ul.topnav li a {
 }
 ul.topnav li.active a {
 	font-family: Roboto;
-	background-color: #DB8162;
+	background-color: #70876B;
 }
 ul.topnav li a:hover {
 	font-family: Roboto;
