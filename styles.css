@@ -419,9 +419,10 @@ a .gallery {
 
 /* -- -- DESIGN Gallery Images -- -- */
 .dgallery {
-	margin: 0px;
+	margin: 5px;
+	margin-bottom: 10px;
 	padding: 0px 2px;
-	padding-bottom: 0px;
+	padding-bottom: 5px;
 	background-color: #fff;
 	float: left;
 	width: 400px;
@@ -429,6 +430,13 @@ a .gallery {
 .dgallery img {
 	width: 100%;
 	height: auto; 
+}
+.dgallery figcaption {
+	color: rgb(100, 100, 100);
+	text-align: center;
+}
+.dgallery figcaption :hover {
+	color: rgb(100, 100, 100);
 }
 /* PHONE only features */
 @media only screen and (max-width: 1000px) {
