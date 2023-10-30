@@ -3,7 +3,7 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 	font-size: 16px;
 	font-weight: normal;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	padding: 0;
 	margin: 0;
 }
@@ -27,6 +27,15 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 
 /* 
 colors: 
+#8AB994 Frolic 
+#5F6EAD Lake 
+#D17D56 Clay 
+
+#eaeceb off white (bg)
+
+#886A71 Grape 
+
+
 #95B48F sprout
 #70876B dark sprout
 #49746C lagoon
@@ -45,18 +54,18 @@ ul.topnav {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	background-color: #49746C;
-	font-family: Roboto;
+	background-color: #8AB994;
+	font-family: Comfortaa;
 	padding-left: 5%;
 }
 /* Float the list items side by side */
 ul.topnav li {
-	font-family: Roboto;
+	font-family: Comfortaa;
 	float: left;
 }
 /* Style the links inside the list items */
 ul.topnav li a {
-	font-family: Roboto;
+	font-family: Comfortaa;
 	display: inline-block;
 	color: #fff;
 	color: white;
@@ -67,16 +76,16 @@ ul.topnav li a {
 	font-size: 17px;
 }
 ul.topnav li.active a {
-	font-family: Roboto;
-	background-color: #35888D;
+	font-family: Comfortaa;
+	background-color: #5F6EAD;
 }
 ul.topnav li a:hover {
-	font-family: Roboto;
-	background-color: #95B48F;
+	font-family: Comfortaa;
+	background-color: #D17D56;
 }
 ul.topnav li.active a:hover {
-	font-family: Roboto;
-	background-color: #95B48F;
+	font-family: Comfortaa;
+	background-color: #886A71;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -144,7 +153,7 @@ header {
 header h1 {
 	font-size: 34px;
 	text-align: center;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	margin-bottom: 5px;
 	color: #444;
 	/* text-shadow: 4px 4px 6px #999; */
@@ -152,7 +161,7 @@ header h1 {
 header h2, h2 a {
 	font-size: 32px;
 	text-align: center;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	margin-bottom: 5px;
 	color: #444;
 	text-decoration: none;
@@ -161,7 +170,7 @@ header h2, h2 a {
 h3, h3 a {
 	font-size: 15px;
 	text-align: center;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	margin-bottom: 5px;
 	color: #444;
 	text-decoration: none;
@@ -190,7 +199,7 @@ h3, h3 a {
 .social {
 	margin: auto;
 	width: 290px;
-	color:#95B48F;
+	color:#8AB994;
 }
 .social	img {
 	width: 40px;
@@ -209,7 +218,7 @@ h3, h3 a {
 	margin: 1px;
 	font-size: 34px;
 	text-align: right;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	color: #70876B;
 	margin-right: 5px;
 	/*float: right;*/
@@ -237,7 +246,7 @@ h3, h3 a {
 	max-width: 1000px;
 	margin: auto;
 	margin-top: 100px;
-	background: white;
+	background: #eaeceb;
 	/*border: solid 5px #aaa;*/
 	padding: 3%;
 }
@@ -245,7 +254,7 @@ h3, h3 a {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CONTENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #content h1 {
 	font-size: 34px;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	color: #444;
 	padding-bottom: 10px;
 	margin: 0;
@@ -255,7 +264,7 @@ h3, h3 a {
 }
 #content h2 {
 	font-size: 32px;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	color: #444;
 	padding-bottom: 10px;
 	margin-top: 30px;
@@ -267,18 +276,18 @@ h3, h3 a {
 
 #content h3 {
 	font-size: 15px;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	color: #444;
 	padding-bottom: 10px;
 	margin-bottom:50px;
 	/* border-bottom: dotted 2px #123; */
 }
 #content p {
-	font-family: Roboto;
+	font-family: Comfortaa;
 	font-size: 20px;
 }
 #content a {
-	font-family: Roboto;
+	font-family: Comfortaa;
 	text-decoration: none;
 	color: #999;
 }
@@ -287,7 +296,7 @@ h3, h3 a {
 	text-decoration: underline;
 }
 #content p a {
-	color: #34888D;
+	color: #5F6EAD;
 	text-decoration: none;
 }
 #content p a:hover {
@@ -330,7 +339,7 @@ figure.contactimg img {
 /* DESKTOP only features  4 COLUMNS*/
 
 .hgallery {
-	/*background-color: #eee;*/
+	background: #eaeceb;
 	margin: 2% 22%;
 	padding: 1%;
 	width: 50%;
@@ -338,7 +347,7 @@ figure.contactimg img {
 }
 .hgallery figcaption{
 	font-size: 20;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	text-align: center;
 	padding: 0 0 0 50;
 }
@@ -423,7 +432,7 @@ a .gallery {
 	margin-bottom: 10px;
 	padding: 0px 2px;
 	padding-bottom: 5px;
-	background-color: #fff;
+	background: #eaeceb;
 	float: left;
 	width: 400px;
 }
@@ -461,7 +470,7 @@ a .gallery {
 	margin-top: 15px;
 	max-width: 150px;
 	color: #111;
-	font-family: Roboto;
+	font-family: Comfortaa;
 	/*font-weight: bold;*/
 	font-size: 1.3em;
 	background-color: white;
@@ -472,14 +481,14 @@ a .gallery {
 	
 }
 #back a:hover {
-	border: 5px #49746C solid;
+	border: 5px #8AB994 solid;
 }
 
 
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #49746C; 
+	background-color: #5F6EAD; 
 	text-align: center;
 	color: white;
 }
@@ -490,7 +499,7 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover {
-	color: #49746C;
+	color: #8AB994;
 	color: white;
 	text-decoration: underline;
 }
