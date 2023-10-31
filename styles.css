@@ -404,14 +404,14 @@ a .hgallery {
 .gallery figcaption {
 	color: black;
 	font-style: normal;
-	padding: 5px 10% 20px 10%;
+	padding: 5px 5% 20px 5%;
 }
 .gallery figcaption :hover {
 	color: black;
 }
 .gallery img {
-	width: 80%;
-	margin: 15px 10% 0px 10%;
+	width: 90%;
+	margin: 15px 5% 0px 5%;
 	border-radius: 10px;
 }
 a .gallery {
