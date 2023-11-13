@@ -46,6 +46,9 @@ body {
 	/*background: linear-gradient(to right, #ccd 0%, #dde 100%);*/
 	background-color: #eaeceb;
 }
+body p {
+	line-height: 170%;
+}
 
 /* *--**--**--**--**--* RESPONSIVE TOPNAV *--**--**--**--**--**--**--* */
 /* Removes margins/padding from list; adds black bg color */
@@ -298,6 +301,7 @@ h3, h3 a {
 #content p a {
 	color: #5F6EAD;
 	text-decoration: none;
+	line-height: 170%;
 }
 #content p a:hover {
 	color: #222;
@@ -350,6 +354,7 @@ figure.contactimg img {
 	font-family: Comfortaa;
 	text-align: center;
 	padding: 0 0 0 50;
+	line-height: 170%;
 }
 .hgallery img {
 	width: 100%;
@@ -405,6 +410,7 @@ a .hgallery {
 	color: black;
 	font-style: normal;
 	padding: 5px 5% 20px 5%;
+	line-height: 170%;
 }
 .gallery figcaption :hover {
 	color: black;
@@ -433,10 +439,8 @@ a .gallery {
 
 /* -- -- DESIGN Gallery Images -- -- */
 .dgallery {
-	margin: 5px;
-	margin-bottom: 10px;
-	padding: 0px 2px;
-	padding-bottom: 5px;
+	margin: 10px;
+	padding: 10px 10px 0px 10px;
 	background: #eaeceb;
 	float: left;
 	width: 400px;
@@ -444,10 +448,12 @@ a .gallery {
 .dgallery img {
 	width: 100%;
 	height: auto; 
+	border-radius: 20px;
 }
 .dgallery figcaption {
 	color: rgb(100, 100, 100);
-	text-align: center;
+	text-align: left;
+	line-height: 170%;
 }
 .dgallery figcaption :hover {
 	color: rgb(100, 100, 100);
