@@ -35,11 +35,15 @@ colors:
 
 #886A71 Grape 
 
-
 #95B48F sprout
 #70876B dark sprout
 #49746C lagoon
 #35888D teal 
+
+
+
+#8bbad6 Sky Blue
+#e49072 Shell Coral
 */
 
 body {
@@ -80,15 +84,15 @@ ul.topnav li a {
 }
 ul.topnav li.active a {
 	font-family: Comfortaa;
-	background-color: #5F6EAD;
+	background-color: #8bbad6;
 }
 ul.topnav li a:hover {
 	font-family: Comfortaa;
-	background-color: #D17D56;
+	background-color: #e49072;
 }
 ul.topnav li.active a:hover {
 	font-family: Comfortaa;
-	background-color: #886A71;
+	background-color: #e49072;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -499,7 +503,7 @@ a .gallery {
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #6a8c82; 
+	background-color: #8AB994; 
 	text-align: center;
 	color: white;
 }
