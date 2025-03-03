@@ -27,6 +27,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 
 /* 
 colors: 
+~ ~ ~ ~ ~ ~ ~ ~ ~ 
+#8EBA94 Meadow
+#37A1C1 Horizon Blue 
+~ ~ ~ ~ ~ ~ ~ ~ ~ 
+
 #8AB994 Frolic 
 #5F6EAD Lake 
 #D17D56 Clay 
@@ -39,8 +44,6 @@ colors:
 #70876B dark sprout
 #49746C lagoon
 #35888D teal 
-
-
 
 #8bbad6 Sky Blue
 #e49072 Shell Coral
@@ -61,7 +64,7 @@ ul.topnav {
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	background-color: #8AB994;
+	background-color: #8EBA94;
 	font-family: Comfortaa;
 	padding-left: 5%;
 }
@@ -84,15 +87,15 @@ ul.topnav li a {
 }
 ul.topnav li.active a {
 	font-family: Comfortaa;
-	background-color: #8bbad6;
+	background-color: #37A1C1;
 }
 ul.topnav li a:hover {
 	font-family: Comfortaa;
-	background-color: #e49072;
+	background-color: #37A1C1;
 }
 ul.topnav li.active a:hover {
 	font-family: Comfortaa;
-	background-color: #e49072;
+	background-color: #37A1C1;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
@@ -206,7 +209,7 @@ h3, h3 a {
 .social {
 	margin: auto;
 	width: 290px;
-	color:#8AB994;
+	color:#8EBA94;
 }
 .social	img {
 	width: 40px;
@@ -303,7 +306,7 @@ h3, h3 a {
 	text-decoration: underline;
 }
 #content p a {
-	color: #5F6EAD;
+	color: #37A1C1;
 	text-decoration: none;
 	line-height: 170%;
 }
@@ -496,14 +499,14 @@ a .gallery {
 	
 }
 #back a:hover {
-	border: 5px #8AB994 solid;
+	border: 5px #8EBA94 solid;
 }
 
 
 /*._._._._._._._._._._ styling for the Footer here ._._._._._._._._._._*/
 footer {
 	clear: both;
-	background-color: #8AB994; 
+	background-color: #8EBA94; 
 	text-align: center;
 	color: white;
 }
@@ -514,7 +517,7 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover {
-	color: #8AB994;
+	color: #8EBA94;
 	color: white;
 	text-decoration: underline;
 }
