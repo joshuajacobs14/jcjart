@@ -2,10 +2,13 @@
 /* - - - - - - - - - - -  CSS Reset  - - - - - - - - - - - - - */
 body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {
 	font-size: 16px;
-	font-weight: normal;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	padding: 0;
 	margin: 0;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
 }
 
 /* DESKTOP only features */
@@ -65,17 +68,17 @@ ul.topnav {
 	padding: 0;
 	overflow: hidden;
 	background-color: #8EBA94;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	padding-left: 5%;
 }
 /* Float the list items side by side */
 ul.topnav li {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	float: left;
 }
 /* Style the links inside the list items */
 ul.topnav li a {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	display: inline-block;
 	color: #fff;
 	color: white;
@@ -86,15 +89,15 @@ ul.topnav li a {
 	font-size: 17px;
 }
 ul.topnav li.active a {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	background-color: #37A1C1;
 }
 ul.topnav li a:hover {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	background-color: #37A1C1;
 }
 ul.topnav li.active a:hover {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	background-color: #37A1C1;
 }
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
@@ -163,7 +166,7 @@ header {
 header h1 {
 	font-size: 34px;
 	text-align: center;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	margin-bottom: 5px;
 	color: #444;
 	/* text-shadow: 4px 4px 6px #999; */
@@ -171,7 +174,7 @@ header h1 {
 header h2, h2 a {
 	font-size: 32px;
 	text-align: center;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	margin-bottom: 5px;
 	color: #444;
 	text-decoration: none;
@@ -180,7 +183,7 @@ header h2, h2 a {
 h3, h3 a {
 	font-size: 24px;
 	text-align: center;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	margin-bottom: 5px;
 	color: #444;
 	text-decoration: none;
@@ -228,7 +231,7 @@ h3, h3 a {
 	margin: 1px;
 	font-size: 34px;
 	text-align: right;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	color: #70876B;
 	margin-right: 5px;
 	/*float: right;*/
@@ -264,7 +267,7 @@ h3, h3 a {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CONTENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #content h1 {
 	font-size: 34px;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	color: #444;
 	padding-bottom: 10px;
 	margin: 0;
@@ -274,7 +277,7 @@ h3, h3 a {
 }
 #content h2 {
 	font-size: 32px;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	color: #444;
 	padding-bottom: 10px;
 	margin-top: 30px;
@@ -286,18 +289,18 @@ h3, h3 a {
 
 #content h3 {
 	font-size: 24px;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	color: #444;
 	padding-bottom: 10px;
 	margin-bottom:50px;
 	/* border-bottom: dotted 2px #123; */
 }
 #content p {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	font-size: 20px;
 }
 #content a {
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	text-decoration: none;
 	color: #999;
 }
@@ -358,7 +361,7 @@ figure.contactimg img {
 }
 .hgallery figcaption{
 	font-size: 20;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	text-align: center;
 	padding: 0 0 0 50;
 	line-height: 170%;
@@ -488,7 +491,7 @@ a .gallery {
 	margin-top: 15px;
 	max-width: 150px;
 	color: #111;
-	font-family: Comfortaa;
+	font-family: "Bricolage Grotesque", sans-serif;
 	/*font-weight: bold;*/
 	font-size: 1.3em;
 	background-color: white;
